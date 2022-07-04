@@ -1,0 +1,389 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #EAEAEA;
+}
+
+.limited-area {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.header img {
+    width: 32px;
+    height: 32px;
+}
+
+.header p {
+    margin-left: 10px;
+    color: #5D15D1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-image: url(./img/bahia.jpg);
+    background-size: cover;
+}
+
+.topo-form {
+    background-color: #5D15D1;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-form img {
+    width: 20px;
+    margin-right: 10px;
+    transform: rotate(-40deg);
+    margin-bottom: 1px;
+}
+
+.topo-for:before {
+    content: url('./img/aviao.png');
+}
+
+.section-form {
+    background-color: white;
+}
+
+form {
+    padding: 25px;
+    background-color: white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.input-placeholder label {
+    display: block;
+    padding: 10px 0;
+}
+
+.input-placeholder input {
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 3px;
+}
+
+.input-placeholder input {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.data-selecao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-select {
+    width: calc((100% / 2) - 10px)
+}
+
+.data-selecao label {
+    padding: 10px 0;
+    display: block;
+}
+
+.data-selecao input,
+.data-selecao select {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    padding-left: 5px;
+    height: 2.5em;
+    width: 100%;
+}
+
+.radio-checkbox input {
+    margin: 0
+}
+
+.titulo-label {
+    display: block;
+    padding: 10px 0
+}
+
+.radio-checkbox p {
+    width: 100px;
+}
+
+.align-label-input {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #5D15D1;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #35008a;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.checkbox-label label {
+    margin-left: 5px;
+}
+
+.ofertas-natureza {
+    background-color: #EAEAEA;
+}
+
+figure {
+    margin: 0;
+}
+
+.ofertas figure:first-of-type img:first-of-type {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.ofertas figure:first-of-type {
+    width: calc(100%/2);
+    height: 100%;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.ofertas figure:first-of-type span {
+    display: block;
+    color: white;
+    position: relative;
+    bottom: 32.5px;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding-left: 5px;
+}
+
+.conjunto-img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: calc(100%/2);
+    height: calc(100%/2);
+}
+
+.conjunto-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.img-span {
+    width: calc(100%/2);
+    padding: 10px;
+    height: 100%
+}
+
+.figure {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-span span {
+    padding-left: 5px;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    position: relative;
+    bottom: 32.5px;
+    display: block;
+    text-align: left;
+}
+
+.boxes-natureza {
+    width: calc((100%/2) - 10px);
+}
+
+.ofertas-natureza {
+    margin: 40px 0;
+}
+
+.content-natureza {
+    display: flex;
+    justify-content: space-between;
+}
+
+.natureza img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-boxes-natureza {
+    background-color: white;
+    padding: 15px;
+}
+
+.info-boxes-natureza h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #5D15D1;
+    color: white
+}
+
+footer img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
+    margin-top: 12px;
+}
+
+footer span {
+    font-size: 14px;
+}
+
+.boxes-footer {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.items-contato {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+
+    .img-span {
+        width: 100%;
+    }
+
+    .ofertas figure:first-of-type {
+        width: 100%;
+        height: 225px;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+
+    .figure {
+        display: inline-block;
+        width: 100%;
+
+
+    }
+
+    .img-span {
+        padding: 0;
+        padding-bottom: 15px;
+        height: 225px;
+    }
+
+    .conjunto-img {
+        display: block;
+        width: 100%;
+    }
+
+    .content-natureza {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxes-natureza {
+        width: 100%;
+    }
+
+    .boxes-footer {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contato {
+        width: 235px;
+    }
+}
+
+@media (max-width: 540px) {
+    .background {
+        height: 1200px;
+    }
+
+    .checkbox-label {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .data-selecao {
+        flex-direction: column;
+    }
+
+    .input-select {
+        width: 100%;
+    }
+
+    .align-label-input {
+        height: 51px;
+    }
+}
